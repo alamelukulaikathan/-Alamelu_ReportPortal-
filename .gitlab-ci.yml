@@ -7,3 +7,4 @@ test :
    script:
     - npm ci
     - npm run testHeadless
+    - npm run e2e
