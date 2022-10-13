@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     specPattern: 'cypress/integration/reportsApp/*.js',
+    //specPattern: 'cypress/integration/*.js',
     chromeWebSecurity: true
   },
 });
