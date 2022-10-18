@@ -130,3 +130,5 @@ dist
 .pnp.*
 
 # cypress
+cypress/*.mp4
+*/.DS_Store
