@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "testHeadless": "./node_modules/.bin/cypress run --headless",
     "testHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
-    "testOnChrome": "./node_modules/.bin/cypress run --headed --browser chrome "
+    "testOnChrome": "cypress run --browser chrome"
   },
   "repository": {
     "type": "git",

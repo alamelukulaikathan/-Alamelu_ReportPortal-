@@ -1,5 +1,11 @@
-image: cypress/base:10
-cypress-e2e:
+stages:          # List of stages for jobs, and their order of execution
+  - test
+
+test: 
+  # This job runs in the test stage.
+  image: cypress/browsers:node16.17.1-chrome106-ff105-edge
+  stage: test    # It only starts when the job in the build stage completes successfully.
   script:
-    - npm install
-    - $(npm bin)/cypress run
+    - npm ci
+    - npm run testOnChrome
+    - echo "Test completed"
