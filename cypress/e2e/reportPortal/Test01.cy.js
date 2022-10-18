@@ -2,6 +2,6 @@
 
 describe('My First Test', () => {
     it('Sucessful Test!', () => {
-      cy.log("Test Passed");
+      cy.log("Testing Passed");
       })
   })
